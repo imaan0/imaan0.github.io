@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<!-- sources used 
+
+Javascript Scroll To Animation: https://stackoverflow.com/questions/18071046/smooth-scroll-to-specific-div-on-click
+Formattting & Stylization for Website: https://tamalsen.dev/
+/*source for fade in: #SmartCode Text Fade In and Fade Out Using CSS Animation | https://www.youtube.com/watch?v=jD_8FLePHZU*/
+-->
+
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/3f044cae79.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <title>Imaan Dadabhoy | Portfolio</title>
+    </head>
+    <body class="bg-zinc-900 text-white">
+        <br> 
+        <!-- nav bar starts here -->
+            <nav class="sticky top-0 bg-zinc-900">
+
+                  <div  class="items-center lg:!flex lg:basis-auto grid grid-cols-2 grid-rows-1" id="navbarSupportedContent3"data-te-collapse-item>
+
+                      <h2 class="uppercase text-xl font-bold px-10"><a href="index.html">Imaan Dadabhoy</a></h2>
+                  </div>
+            </nav>
+        <main>
+        <!-- intro area --> 
+            <div class="header pt-20" id=""> 
+                <br><br>
+                <h1 class="uppercase text-2xl font-bold px-10 pt-10  tracking-wide text-center fadeIn">hi,  i'm imaan dadabhoy</h1>
+                <p class="text-lg px-10 font-light text-center pt-1 welcome">Welcome to My Portfolio</p>
+                <div class="flex flex-col items-center justify-center pt-20">
+
+                    <br>
+                    <i class="fa-solid fa-robot fa-spin-pulse" style="color: #fafaff; font-size:30px;"></i>
+                   <!-- <p><span class="material-symbols-outlined" style="fontsize:500px;">smart_toy</span></p>-->
+             <!--       <button class="px-10 py-1"><i id="abtMeBtn" class="fa-solid fa-arrow-down-long fa-bounce" style="color: #ffffff; font-size:50px;"></i></button>
+            -->     </div> 
+                <br><br><br><br><br>
+            </div>
+        <!-- intro area ends here -->
+
+            <!-- abt me section -->
+            <div id="abtMe" class="aboutMe rounded-lg bg-zinc-800 backgroundCard px-5">
+                <h1 class="uppercase text-2xl font-bold px-10 pt-5 pb-5 tracking-wide text-center">about me</h1>
+                <pre class="uppercase text-cente pb-2">communication . dedication . collaboration</pre>
+                <p class="pb-5">I am senior at the Liberal Arts & Science Academy. I have lived in Houston, Seattle & Austin. I love reading, so feel free to reach out with book recs. I plan to pursue Mechanical Engineering in university. And remember, if there is a project/opportunity you think I would be perfect for, please reach out!</p>
+            </div>
+
+            <!-- projects --> 
+            <div class="projects pt-10">
+                <h1 class="uppercase text-2xl font-bold px-10 tracking-wide text-center pb-20">spotlight projects</h1>
+                <!-- cards --> 
+                <div class="cards">
+                    <!-- card one -->
+                    <div class="card">
+                        <iframe class="card_img rounded-t-lg" src="https://codehs.com/uploads/a3dbe6b4c186bc56b88034897d911544"></iframe>
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 pr-5 font-semibold">Website Team Design Competition (2023)</p>
+                            <p class="pl-5 pb-5 pr-5">Placed first at Regionals; Created a website for a used-car company.</p>
+                           <!-- <button class="modalBtn pb-2 pl-5"><i class="fa-solid fa-circle-plus fa-lg" style="color: #ffffff;"></i></button>
+                   -->  </div>
+                    </div>
+
+
+                    <!-- card two --> 
+                    <div class="card">
+
+                        <iframe class="card_img rounded-t-lg" src="https://codehs.com/uploads/3c1393aec8fe384c37d96d48c220129c"></iframe>
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 pr-5 font-semibold">APCSP Creative Task (Mock Up 2021)</p>
+                            <p class="pl-5 pb-5 pr-5">Python Program: An educational game for the APCSP Creative Task</p>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- card four --> 
+                    <div class="card">
+                        <iframe class="card_img rounded-t-lg" src="https://codehs.com/uploads/2af573f624df80d393b0935bb7a3c012"></iframe>
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 pr-5 font-semibold">Go Baby Go Powered Mobility Program (2021)</p>
+                            <p class="pl-5 pb-5 pr-5">A video presentation created by Imaan on the adaptions made to the car</p>
+                        </div>
+                    </div>
+
+                    <!--card five--> 
+                    <div class="card">
+                        <img class="card_img rounded-t-lg bg-slate-50" src="https://codehs.com/uploads/bfd925825b8fa292ec7b1faf651a0ea6">
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 font-semibold pr-5">Electric Bicycle Infographic (2021)</p>
+                            <p class="pl-5 pb-5 pr-5">Adobe Illustrator: Final project for Graphic Design Class in Illustrator about the benefits of electric bikes</p>
+                        </div>
+                    </div>
+
+                    <!--card six --> 
+                    <div class="card">
+                        <img class="card_img rounded-t-lg" src="https://codehs.com/uploads/ca3efa979df16e15d74488e79dfcc6b4">
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 font-semibold pr-5">Project Connect Internship Final Deliverable (2023)</p>
+                            <p class="pl-5 pb-5 pr-5">Microstation: Imaan and 4 other interns collaborated on the reconfiguration of a street to fit a light-rail</p>
+                        </div>
+                    </div>
+
+                     <!--card three-->
+                    <div class="card">
+                        <iframe class="card_img rounded-t-lg" src="https://codehs.com/uploads/6a834f8347b9d27e2ad67bc2add69406"></iframe>
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 font-semibold">Cardboard Rover with Arduino Parts (2021)</p>
+                            <p class="pl-5 pb-5">Arduino & C++: In Freshmen year I created a cardboad rover with an arduino: themometer, photoresistor, ultrasonic ranger, & LCD</p>
+                        </div>
+                    </div>
+
+                     <!--card three-->
+                    <div class="card">
+                        <img class="card_img rounded-t-lg" src="https://codehs.com/uploads/bf7784e637757ee9ee054b095528aab0">
+                        <div class="card_content rounded-b-lg">
+                            <p class="pl-5 pt-5 pb-2 font-semibold pr-5 ">3D Drawing of Pen Assembly (2023)</p>
+                            <p class="pl-5 pb-5 pr-5">Autofusion 360: Collaborative Project of Pen Part Assembly</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                </div>
+
+                 <!--resume slider--> 
+                 <!-- employment section starts here -->
+                 <div class="border-b-2 border-zinc-800">
+                    <div id="headerEmp"class="border-b-2 border-zinc-800 resumeHeadings">
+                        <h1 class=" employ  pt-10 pb-10 font-semibold text-2xl uppercase text-center"><i class="fa-solid fa-arrow-down fa-bounce" style="color: #ffffff;"></i> experiences <i class="fa-solid fa-arrow-down fa-bounce" style="color: #ffffff;"></i></h1>
+                    </div>
+
+                    <div class=" pb-5 hidden" id="employment">
+                        <h4 class="text-base font-semibold uppercase pl-20 pt-5">// Project Connect Internship Jun.2023 - Jul.2023</h4>
+                        <p class="pl-20 pt-5 font-light">Explored the field of Civil Engineering; learnt about structural development and urban planning from industry professionals. Developed a light rail design with a team using Micro-Station software; Imaan was in charge of designing the railway configuration across three blocks.</p>
+                        <h4 class="text-base font-semibold uppercase pl-20 pt-5">// Mathnasium Instructor Dec.2022 - Current</h4>
+                        <p class="pl-20 pt-5 font-light">Imaan works with students of all ages to develop math skills through one on one teaching.</p>
+                        <h4 class="text-base font-semibold uppercase pl-20 pt-5">// Go Baby Go Program 2021</h4>
+                        <p class="text-base font-light pl-20 pt-5">In her freshmen year, Imaan participated in Go Baby Go Mobility Program. Imaan was the Graphic Design Lead, creating a multimedia presentation displaying the project, and assisted with the modifications of the car.  </p>
+                        <h4 class="text-base font-semibold uppercase pl-20 pt-5">// Private Academic Tutor Jan.2020 - Aug.2020</h4>
+                        <p class="pl-20 pt-5 font-light">Imaan worked with students and parents to grow client's reading levels and developed activities and worksheets that suited the client's reading proficiency </p>
+                    </div>
+                 </div>
+
+
+
+
+
+        </main><br>
+        <!-- footer --> 
+        <footer class="bg-zinc-800 static bottom-0 left-0 w-full">
+            <div class="grid grid-cols-2 grid-rows-1 pl-20">
+                <div class="pt-10 pl-5">
+                    <h3 class="uppercase font-semibold">let's connect</h3>
+                    <p class="font-light">imaandadabhoy@icloud.com</p>
+
+                </div>
+
+            </div>
+            <p class="text-center text-xs pt-10">Created by Imaan Dadabhoy 2023.</p>
+            <p class="text-center text-xs pt-2 pb-2">Icons from FontAwesome.</p>
+        </footer>
+
+        <script>
+            $("#headerEmp").click(function(){
+                $("#employment").slideToggle("slow"); 
+            })
+        </script>
+
+
+    </body>
+
+</html>

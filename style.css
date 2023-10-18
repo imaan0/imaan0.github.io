@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#abtMe{
+    width:500px;
+    margin:auto;
+}
+
+
+.cards{
+    margin: 0 auto;
+    max-width:1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    gap: 50px; 
+
+}
+
+.card_content{
+    background-color: #27272a;
+}
+
+/*source for fade in: #SmartCode Text Fade In and Fade Out Using CSS Animation | https://www.youtube.com/watch?v=jD_8FLePHZU*/
+@keyframes fade{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.fadeIn{
+    animation: fade 5s;
+}
+
+.welcome{
+    animation: fade 10s;
+}
